@@ -1,0 +1,33 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos pesados e índices (se reconstruyen con los scripts)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+indices/
+*.faiss
+*.index
+*.npy
+
+# Resultados pesados y tracking
+results/*
+!results/.gitkeep
+mlruns/
+wandb/
+
+# Credenciales y entorno
+.env
+*.key
+
+# SO / editores
+.DS_Store
+.vscode/
+.idea/

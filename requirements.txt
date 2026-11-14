@@ -1,0 +1,33 @@
+# Dependencias locales (Mac/Linux, solo CPU). Tras instalar, congelar versiones:
+#   pip freeze > requirements-lock.txt
+# y comitear requirements-lock.txt (la guía exige versiones fijadas).
+
+# Datos y extracción
+pymupdf
+pdfplumber
+beautifulsoup4
+lxml
+requests
+datasets
+
+# Recuperación
+sentence-transformers
+rank-bm25
+faiss-cpu
+ranx
+
+# Análisis y estadística
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+
+# Utilidades y seguimiento
+pyyaml
+tqdm
+mlflow
+jupyter
+ipykernel

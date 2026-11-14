@@ -1,0 +1,22 @@
+# Un archivo de configuración por experimento
+experiment_id: exp_000_baseline
+seed: 42
+
+chunking:
+  strategy: fixed        # fixed | recursive | structure | semantic
+  size_tokens: 512
+  overlap: 0.1
+
+embedding:
+  model: BAAI/bge-m3
+
+retrieval:
+  method: dense          # bm25 | dense | hybrid
+  k: 5
+  reranker: null         # p. ej. un cross-encoder
+
+generation:
+  model: null            # LLM abierto cuantizado
+  temperature: 0
+  prompt: base           # base | cite_abstain
+  context_order: ranked  # ranked | reversed | shuffled
