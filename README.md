@@ -29,3 +29,8 @@ Para Colab (GPU T4): `pip install -r requirements-colab.txt`.
 
 ## Estado
 - [ ] Fase 1: protocolo y organización
+  - [x] Repositorio creado
+  - [x] Entorno fijado (Python 3.13, `requirements-lock.txt`)
+  - [ ] Protocolo completo (nombres, tutor, versión y fecha)
+  - [ ] Hipótesis y métricas congeladas (etiqueta `protocol-v1.0` tras revisión cruzada)
+  - [ ] Revisión cruzada y protección de `main` activadas

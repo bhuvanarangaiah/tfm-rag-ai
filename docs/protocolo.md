@@ -2,9 +2,9 @@
 
 **Título provisional:** Evaluación experimental de arquitecturas RAG para preguntas y respuestas sobre documentación en ética y regulación de la IA
 
-**Autores:** Estudiante A (recuperación) · Estudiante B (generación y evaluación)
-**Tutor:** _por completar_
-**Versión / fecha:** v0.1 · _por completar_
+**Autores:** Bhuvana Rangaiah Cheemala Marri · Oscar Dario Sanchez Perez
+**Tutor:** Wladimir José Rodriguez Graterol
+**Versión / fecha:** v0.1 · 20 Noviembre 2026
 
 > Regla: hipótesis y métricas se fijan **antes** de ver resultados. Todo cambio posterior se registra en la sección 11 con su justificación.
 

@@ -27,6 +27,9 @@ wandb/
 .env
 *.key
 
+# Material del curso (no es parte del repositorio)
+GuiaProyectoTFM.pdf
+
 # SO / editores
 .DS_Store
 .vscode/
