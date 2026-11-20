@@ -15,6 +15,7 @@ docs/protocolo.md    protocolo del TFM
 ```
 
 ## Entorno
+Python **3.12 o 3.13** (3.9 y 3.10 ya están fuera de soporte). Verificado en 3.13.
 ```bash
 bash setup_env.sh            # crea .venv, instala dependencias y genera requirements-lock.txt
 source .venv/bin/activate

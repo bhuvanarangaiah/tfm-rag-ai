@@ -1,9 +1,10 @@
 # Solo para Google Colab (GPU T4). bitsandbytes requiere CUDA: no instalar en Mac.
+# Colab trae torch/CUDA preinstalado: no lo fijamos aquí.
 -r requirements.txt
 
-transformers
-accelerate
-bitsandbytes
+transformers==5.23.0
+accelerate==1.16.0
+bitsandbytes==0.50.2
 # vllm            # opcional: generación por lotes más rápida
 # ragas           # opcional: métricas de fidelidad
 # ragchecker      # opcional: precisión/recall de afirmaciones
